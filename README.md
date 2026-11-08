@@ -1,10 +1,6 @@
 # TechSupport Solutions
 
 ### Responsive IT Services Website | Frontend Development & Cloud Deployment
-
-\
-
-
 ## 1. Project Overview
 
 TechSupport Solutions is a responsive website developed for a fictional IT services company that provides technology support and infrastructure solutions to businesses.
@@ -14,8 +10,6 @@ The project was built from scratch using HTML, CSS and JavaScript, with the obje
 Beyond building the website, this project provided hands-on experience with Git, GitHub, Vercel and an automated deployment workflow.
 
 **Live Demo:** [https://techsupport-solutions-eptq.vercel.app](https://techsupport-solutions-eptq.vercel.app)
-
-**Source Code:** [https://github.com/Bedeneche/techsupport-solutions](https://github.com/Bedeneche/techsupport-solutions)
 
 ## 2. Project Objectives
 
@@ -86,10 +80,10 @@ The website presents four IT service categories:
 ```text
 techsupport-solutions/
 │
-├── index.html       # Website structure and content
-├── style.css        # Styling and responsive layouts
-├── script.js        # Client-side interactions
-└── README.md        # Project documentation
+├── index.html       
+├── style.css       
+├── script.js        
+└── README.md        
 ```
 
 ## 6. Deployment Architecture
@@ -182,7 +176,7 @@ This project provided practical exposure to the following concepts:
 - **HTTPS/TLS Fundamentals:** Understanding encrypted connections and certificate validation.
 - **Troubleshooting:** Applying a cause, evidence and investigation approach to deployment-related problems.
 
-*DNS and custom-domain configuration were studied conceptually but were not implemented on a purchased domain in this project.*
+
 
 ## 9. Running the Project Locally
 
@@ -220,7 +214,6 @@ The project strengthened my interest in DevOps engineering and provided a founda
 
 Aspiring DevOps Engineer | IT Support Specialist
 
-- GitHub: [@Bedeneche](https://github.com/Bedeneche)
 - LinkedIn: [Bede Chukwude](https://www.linkedin.com/in/bede-chukwude-605a27135/)
 
 ---
