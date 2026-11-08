@@ -1,0 +1,220 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+/* Website header */
+header {
+    background-color: #123b66;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Main heading */
+h2 {
+    color: #123b66;
+    font-size: 36px;
+}
+
+/* Paragraph */
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contact button */
+button {
+    background-color: #0879d9;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Website sections */
+section {
+    padding: 40px 20px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+/* Service cards */
+#services div {
+    background-color: white;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Contact form */
+#contact form {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Form fields */
+#contact input,
+#contact textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Message box */
+#contact textarea {
+    min-height: 120px;
+}
+
+/* Contact form button */
+#contact button {
+    margin-top: 10px;
+}
+
+/* Navigation bar */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Company logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+/* Individual links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Link hover effect */
+nav ul li a:hover {
+    color: #80c7ff;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+
+    header nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        gap: 15px;
+    }
+
+    main {
+        padding: 40px 15px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    #services div {
+        margin: 15px 0;
+    }
+}
+
+/* Homepage hero section */
+main > h2 {
+    font-size: 42px;
+    color: #123b66;
+    margin-bottom: 20px;
+}
+
+main > p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+main > button {
+    padding: 15px 32px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+main > button:hover {
+    background-color: #075ca8;
+}
+
+/* Services grid */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Individual service cards */
+.services-container div {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* Website footer */
+footer {
+    background-color: #123b66;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* Service card hover effect */
+.services-container > div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-container > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
